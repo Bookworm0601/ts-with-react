@@ -1,7 +1,8 @@
 import React from 'react';
 import logo from './logo.svg';
 import './App.css';
-
+// import LikeButton from './components/LikeButton'
+import MouseTrack from './components/MouseTrack'
 function App() {
   return (
     <div className="App">
@@ -18,6 +19,8 @@ function App() {
         >
           Learn React
         </a>
+        <MouseTrack />
+        {/* <LikeButton /> */}
       </header>
     </div>
   );
